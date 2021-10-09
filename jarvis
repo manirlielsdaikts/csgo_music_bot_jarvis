@@ -1,7 +1,7 @@
 #!/bin/bash
-sex="/home/boss/Desktop/csgo"
+sex="/home/boss/Desktop/csgo" #change this with your directory!
 potato=$(ls | nl | grep -E "^\s+$number\s" | awk '{ $1=""; print}')
 echo \"${potato:1}\"
 ls | nl; read -p "Greetings, senor. I am Sex Jarvis. Enter your song number. Please don't use spaces, senor. Number: " number; potato=$(ls | nl | grep -E "^\s+$number\s" | awk '{ $1=""; print}'); potato=${potato:1};echo \"$potato\"
-cp ~/Desktop/csgo/"$potato" ~/.local/share/Steam/steamapps/common/'Counter-Strike Global Offensive'/
+cp "$sex"/"$potato" ~/.local/share/Steam/steamapps/common/'Counter-Strike Global Offensive'/
 mv ~/.local/share/Steam/steamapps/common/'Counter-Strike Global Offensive'/"$potato" ~/.local/share/Steam/steamapps/common/'Counter-Strike Global Offensive'/voice_input.wav
