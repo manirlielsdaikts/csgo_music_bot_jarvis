@@ -1,4 +1,5 @@
 #!/bin/bash
+#Copyright © 1776-2021, CSI & el sexo, Inc. No rights reserved.
 sex="/home/boss/Desktop/csgo" #change this with your directory!
 potato=$(ls | nl | grep -E "^\s+$number\s" | awk '{ $1=""; print}')
 echo \"${potato:1}\"
