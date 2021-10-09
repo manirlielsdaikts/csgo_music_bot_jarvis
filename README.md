@@ -1,7 +1,7 @@
 # csgo_music_bot_jarvis
-Simple CS:GO WAV file music bot for Linux.
+#Simple CS:GO WAV file music bot for Linux.
 
-Setting up
+##Setting up
 
 Step 1:
 
@@ -21,7 +21,7 @@ make jarvis executable: chmod +x jarvis
 
 Step 5:
 
-use jarvis: ./jarvis
+execute jarvis: ./jarvis
 
 
 Using the bot
